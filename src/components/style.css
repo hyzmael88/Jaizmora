@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Aileron-Heavy;
+    src: url("../assets/fonts/Aileron-Heavy.otf");
+  }
+  @font-face {
+    font-family: Aileron-Regular;
+    src: url("../assets/fonts/Aileron-Regular.otf");
+  }
+
+
+#fondo{
+    position: relative;
+    z-index: 1; 
+}
+#logonaranja{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 2;
+}
+#digitalmedia{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 2;
+}
+#triangulonaranja{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 2;
+}
+#triangulonegro{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 3;
+}
+
+#who{
+    color: #FF2942;
+    font-family:  Aileron-Heavy;
+}
+#mensaje{
+    color: black;
+    font-family:  Aileron-Heavy;
+}
+#necesidades{
+    color: black;
+    font-family:  Aileron-Regular;
+}
+#quienesimg{
+    width: 100%;
+    
+}
+#contenedorSomos{
+    padding-bottom: 30%;
+}
+#somos{
+    color: black;
+    font-family:  Aileron-Heavy;
+}
+#generamos{
+    color: #FF2942;
+    font-family:  Aileron-Heavy;
+}
+#guion{
+    background-color: #FF2942;
+    font-family:  Aileron-Heavy;
+    width: 50px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+#triangulonaranja2{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    
+}
+#triangulonegro2{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    
+}
+
+#triangulonaranja3{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+}
+#triangulonegro3{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    z-index: 2;
+}
+#thinkfoto{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
