@@ -5,7 +5,15 @@ import Inicio from './components/Inicio';
 import Quienes from './components/Quienes';
 import Somos from './components/Somos';
 import Think from './components/Think';
-;
+import Work from './components/Work';
+import Steps from './components/Steps';
+import Services from './components/Services';
+import Exito from './components/Exito';
+import Fin from './components/Fin';
+
+
+
+
 
 
 
@@ -19,11 +27,11 @@ function App() {
       <Quienes></Quienes>
       <Somos></Somos>
       <Think></Think>
-      <p>How we work</p>
-      <p>Steps for Success</p>
-      <p>Our services</p>
-      <p>Casos de Exito</p>
-      <p>Fin</p>
+      <Work></Work>
+      <Steps></Steps>
+      <Services></Services>
+      <Exito></Exito>
+      <Fin></Fin>
     </div>
   );
 }

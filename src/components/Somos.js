@@ -2,23 +2,18 @@ import React, { Fragment } from 'react';
 
 import TrianguloNaranja from '../assets/img/triangulonaranja.png'
 import TrianguloNegro from '../assets/img/triangulonegro.png'
-import { Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 
 export default function Somos() {
-  return <Fragment>
-    <Container>
+  return <Fragment >
+    <Container fluid id="somoscontainer">
       <Row>
         <br></br>
-        <div id='contenedorSomos'>
-          {/* <Image id='triangulonaranja2' src={TrianguloNaranja}></Image> */}
-          <svg height="210" width="250">
-            <polygon points="250,0 250,210 160,210" style="fill:#FF2942;stroke:black;stroke-width:1" />
-          </svg>
-          {/* <Image id='triangulonegro2' src={TrianguloNegro}></Image> */}
-
-          <div className='text-left'>
-            <p id='somos'>Somos JAIZMORA,</p>
+        <Col md={12}>
+        <div className='text-left'>
+            
+            <p id='somos' className='mt-5'>Somos JAIZMORA,</p>
             <br></br>
             <h1 id='generamos'>generamos experiencias<br></br>
               de valor<br></br>
@@ -28,7 +23,15 @@ export default function Somos() {
               <p id='guion'></p>
             </h1>
           </div>
-        </div>
+        </Col>
+          
+{/*          
+        <Image id='triangulonaranja2' className='img-fluid' src={TrianguloNaranja}></Image>
+          
+          <Image id='triangulonegro2'  className='img-fluid' src={TrianguloNegro}></Image> 
+           */}
+
+          
       </Row>
     </Container>
   </Fragment>;

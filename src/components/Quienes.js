@@ -14,8 +14,8 @@ export default function Quienes() {
       <Row>
 
         <Col m={10} >
-          <div className='text-left'>
-            <h1 id='who'>Who are we?</h1>
+          <div className='text-left '>
+            <h1 id='who' >Who are we?</h1>
 
             <p id='mensaje'>Hola,<br></br>Queremos que el mensaje de tu<br></br>marca, sea escuchado.</p>
             <br></br>

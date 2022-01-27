@@ -7,6 +7,14 @@
     src: url("../assets/fonts/Aileron-Regular.otf");
   }
 
+  .titulo{
+    color: #FF2942;
+    font-family:  Aileron-Heavy;
+  }
+  .textoparrafo{
+    color: black;
+    font-family:  Aileron-Regular;
+  }
 
 #fondo{
     position: relative;
@@ -72,34 +80,117 @@
     margin-top: 10px;
 }
 
+#somoscontainer{
+    background-image: url('../assets/img/somosimg.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #triangulonaranja2{
     position: absolute;
     right: 0%;
-    width: 100%;
+   
     
 }
 #triangulonegro2{
     position: absolute;
     right: 0%;
-    width: 100%;
+   
     
 }
+
+#thinkcontainer{
+    background-image: url('../assets/img/thinkimg.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 
 #triangulonaranja3{
     position: absolute;
     left: 0%;
-    width: 100%;
-    z-index: 1;
+    z-index: -2;
 }
 #triangulonegro3{
     position: absolute;
     left: 0%;
-    width: 100%;
-    z-index: 2;
+    z-index: -1;
 }
 #thinkfoto{
     position: absolute;
     left: 0;
-    width: 100%;
     z-index: 3;
+}
+
+#workcontainer{
+    background-image: url('../assets/img/workimg.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.textowork{
+    vertical-align: sub;
+}
+
+#stepscontainer{
+    height: 500px;
+}
+
+.titulostepsnaranja{
+    color: #FF2942;
+    font-family:  Aileron-Heavy;
+    margin-top: 100px;
+}
+
+#stepsrow{
+    height: 80%;
+}
+.titulostepsnegro{
+    color: black;
+    font-family:  Aileron-Heavy;
+    margin-top: 100px;
+}
+
+.textosteps{
+    color: white;
+    font-family:  Aileron-Regular;
+}
+
+.fondostepsnegro{
+    background-color: black;
+}
+.fondostepsnaranja{
+    
+    
+}
+#conocemossteps{
+    background: linear-gradient(to bottom, black 80%, white 20%);
+}
+#planteamossteps{
+    background: linear-gradient(to bottom, #FF2942 85%, white 15%);
+   
+}
+#producimossteps{
+    background: linear-gradient(to bottom, black 90%, white 10%);
+}
+#ejecutamossteps{
+    background: linear-gradient(to bottom, #FF2942 95%, white 5%);
+}
+#verificamossteps{
+    background: linear-gradient(to bottom, black 100%, white 0%);
+
+}
+
+#fincontainer{
+    background-image: url('../assets/img/footerimg.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.dejanostexto{
+    color: white;
+    font-family:  Aileron-Regular;
 }
